@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "849739034066",
+    "firebase_url": "https://quizeapp-a85fc.firebaseio.com",
+    "project_id": "quizeapp-a85fc",
+    "storage_bucket": "quizeapp-a85fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849739034066:android:302a28ce4b2358241dac0b",
+        "android_client_info": {
+          "package_name": "com.itsram.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849739034066-rr1akpbl4h1pli97h9mpuu8v2g1qeama.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8y0cUx071TWuYYZRDDWoSGCNjK9-4uco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849739034066-rr1akpbl4h1pli97h9mpuu8v2g1qeama.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

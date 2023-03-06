@@ -103,28 +103,29 @@
             android:layout_marginLeft="16dp"
             android:padding="10dp"
             android:text="Wrong Attempt"
-            android:textColor="@color/textColor"
+            android:textColor="#090909"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerViewIncorrect"
-            android:layout_width="383dp"
-            android:layout_height="281dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="45dp"
             android:layout_marginRight="16dp"
             android:layout_weight="1" />
-        <Button
-            android:id="@+id/doneBtn"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_gravity="bottom|center"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/catagory_background"
-            android:text="done"
-            android:textColor="@color/textColor" />
+
     </FrameLayout>
+    <Button
+        android:id="@+id/doneBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/catagory_background"
+        android:text="done"
+        android:textColor="@color/textColor" />
 </LinearLayout>

@@ -26,7 +26,7 @@ import java.util.List;
 
 public class C extends Fragment {
     FirebaseDatabase database=FirebaseDatabase.getInstance();
-    DatabaseReference myref=database.getReference();
+    DatabaseReference myRef=database.getReference();
     private View view;
     private List<TheoryModel> list;
     private RecyclerView recyclerView;
@@ -56,7 +56,7 @@ public class C extends Fragment {
 
 
 
-        myref.child("Program").child("C").addListenerForSingleValueEvent(new ValueEventListener() {
+        myRef.child("Program").child("C").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for (DataSnapshot dataSnapshot:snapshot.getChildren()){

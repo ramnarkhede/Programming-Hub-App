@@ -13,8 +13,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.ViewHolder> {
-    List<HistoryData> list
-            = Collections.emptyList();
+    List<HistoryData> list = Collections.emptyList();
 
     public HistoryAdapter(List<HistoryData>list)
     {

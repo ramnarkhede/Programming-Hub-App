@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PdfViewActivity"></activity>
+        <activity
+            android:name=".DataStructureActivity"
+            android:exported="false" />
+        <activity android:name=".PdfViewActivity" />
         <activity android:name=".TheoryActivity" />
         <activity android:name=".ProgramActivity" />
         <activity android:name=".HistoryActivity" />
